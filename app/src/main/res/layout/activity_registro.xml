@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg4"
+    tools:context=".Registro">
+
+    <LinearLayout
+        android:layout_width="318dp"
+        android:layout_height="486dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/blancoTrans"
+            android:padding="4dp"
+            android:text="@string/regEmail"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/emailReg"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/transBoton"
+            android:ems="10"
+            android:inputType="textEmailAddress|textEmailSubject"
+            android:onClick="vaciarTexto"
+            android:padding="3dp"
+            android:text="@string/ejemEmail"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@color/blancoTrans"
+            android:padding="4dp"
+            android:text="@string/regPass"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/pass1"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/transBoton"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:onClick="vaciarTexto"
+            android:padding="3dp"
+            android:text="@string/passCoinc"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@color/blancoTrans"
+            android:padding="4dp"
+            android:text="@string/regPassAgain"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/pass2"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/transBoton"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:onClick="vaciarTexto"
+            android:padding="3dp"
+            android:text="@string/passCoinc"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/blancoTrans"
+            android:padding="4dp"
+            android:text="@string/nick"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/nick"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/transBoton"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:onClick="vaciarTexto"
+            android:padding="3dp"
+            android:text="@string/nickEj"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/blancoTrans"
+            android:padding="4dp"
+            android:text="@string/nombre"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/transBoton"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:onClick="vaciarTexto"
+            android:padding="3dp"
+            android:text="@string/nombreEj"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/crearCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/transBoton"
+            android:onClick="crearCuenta"
+            android:text="@string/crearCuenta"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="27dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="116dp"
+        android:onClick="comprobarEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+</android.support.constraint.ConstraintLayout>

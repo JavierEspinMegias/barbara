@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg4"
+    tools:context=".Ideas">
+
+    <LinearLayout
+        android:layout_width="315dp"
+        android:layout_height="302dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="148dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/archvosLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/archivos"
+                android:layout_width="255dp"
+                android:layout_height="58dp"
+                android:layout_margin="5dp"
+                android:background="@color/transBoton"
+                android:onClick="archivos"
+                android:text="@string/archivos"
+                android:textColor="@android:color/background_light" />
+
+            <ImageButton
+                android:id="@+id/infoArchivos"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/infoArchivos"
+                android:onClick="infoArchivos"
+                app:srcCompat="@android:drawable/ic_menu_add" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/audioLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/audio"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/transBoton"
+                android:onClick="audio"
+                android:text="@string/audio"
+                android:textColor="@android:color/background_light" />
+
+            <ImageButton
+                android:id="@+id/infoAudio"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/infoAudio"
+                android:onClick="infoAudio"
+                app:srcCompat="@android:drawable/ic_menu_add" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/noticiasLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/noticias"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/transBoton"
+                android:onClick="noticias"
+                android:text="@string/noticias"
+                android:textColor="@android:color/background_light" />
+
+            <ImageButton
+                android:id="@+id/infoNoticias"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/infoNoticias"
+                android:onClick="infoNoticias"
+                app:srcCompat="@android:drawable/ic_menu_add" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/imagenLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/imagen"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/transBoton"
+                android:onClick="imagen"
+                android:text="@string/imagen"
+                android:textColor="@android:color/background_light" />
+
+            <ImageButton
+                android:id="@+id/infoImagen"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/infoImagen"
+                android:onClick="infoImagen"
+                app:srcCompat="@android:drawable/ic_menu_add" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/docuLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/docu"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/transBoton"
+                android:onClick="documentos"
+                android:text="@string/docu"
+                android:textColor="@android:color/background_light" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/infoDocumentos"
+                android:onClick="infoDocumentos"
+                app:srcCompat="@android:drawable/ic_menu_add" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="189dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="112dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

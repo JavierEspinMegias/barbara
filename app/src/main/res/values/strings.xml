@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Bárbara</string>
+
+    <string name="intangible">Ideas</string>
+    <string name="tangible">Objetos</string>
+
+    <string name="docu">Documentos</string>
+    <string name="imagen">Imagen</string>
+    <string name="audio">Audio/Video</string>
+    <string name="noticias">Noticias</string>
+    <string name="archivos">Archivos</string>
+
+    <string name="campoBusq">Buscar...</string>
+    <string name="res">...</string>
+
+    <string name="silencio">Silenciosa</string>
+    <string name="normal">Normal</string>
+    <string name="tituloTipo">Tipo de busqueda: </string>
+
+    <string name="nueva">Nueva busqueda</string>
+    <string name="url">google</string>
+
+
+    <string name="botonCheck1">Moda</string>
+    <string name="botonCheck2">Deportes</string>
+    <string name="botonCheck3">Belleza</string>
+    <string name="botonCheck4">Hogar</string>
+    <string name="botonCheck5">Ocio</string>
+    <string name="botonCheck6">Electronica</string>
+    <string name="botonCheck7">Viajar</string>
+    <string name="botonCheck8">Motor</string>
+    <string name="botonCheck9">Salud</string>
+
+    <string name="web1">Aliexpress</string>
+    <string name="web2">Amazon</string>
+    <string name="web6">Audiotronics</string>
+    <string name="web3">Ebay</string>
+    <string name="web8">El Corte Ingles</string>
+    <string name="web5">Fnac</string>
+    <string name="web4">Google Shopping</string>
+    <string name="web9">MediaMarkt</string>
+
+    <string name="busquedaTangible">Buscar</string>
+    <string name="volver">Volver</string>
+    <string name="campWeb">Escribe una web o elige una opcion</string>
+
+    <string name="infoAudio">info Audio</string>
+    <string name="infoArchivos">info Audio</string>
+    <string name="infoNoticias">info Audio</string>
+    <string name="infoImagen">info Audio</string>
+    <string name="infoDocumentos">info Audio</string>
+
+    <string name="isReg">¿Aún no estás registrado?</string>
+    <string name="registrarse">Regístrate</string>
+    <string name="login">Entrar</string>
+    <string name="email">E-mail:</string>
+    <string name="pass">Contraseña:</string>
+
+
+    <string name="regEmail">Introduce tu Email</string>
+    <string name="regPass">Introduce una contraseña</string>
+    <string name="regPassAgain">Vuelve a introducir la contraseña</string>
+    <string name="passCoinc">123456</string>
+    <string name="ejemEmail">ejemplo@ejemplo.com</string>
+    <string name="crearCuenta">Crear cuenta</string>
+    <string name="nick">Introduce tu nick</string>
+    <string name="nombre">Introduce tu nombre</string>
+    <string name="nickEj">Nick...</string>
+    <string name="nombreEj">Nombre...</string>
+
+    <string name="recientes">Busquedas recientes</string>\
+    <string name="modoAdmin">Admin</string>
+    <string name="alert">Esta accion eliminara todo el contenido\nDesea continuar?</string>
+    <string name="continuar">Continuar</string>
+    <string name="cancelar">Cancelar</string>
+
+
+    <string name="titulNombreArchivo">Inserte un nombre para el archivo</string>
+    <string name="nomArchivo">baseDatos.json</string>
+    <string name="leerInterno">Restaurar datos Interna</string>
+    <string name="leerExterno">Restaurar datos Externa</string>
+    <string name="guardarInterno">Memoria Interna</string>
+    <string name="guardarExterno">Memoria Externa</string>
+    <string name="leer">Leer</string>
+    <string name="cargar">Cargar</string>
+    <string name="firebase">Firebase</string>
+    <string name="eliminar">Eliminar</string>
+
+    <string name="listviewtitulo">Busquedas del usuario: </string>
+</resources>

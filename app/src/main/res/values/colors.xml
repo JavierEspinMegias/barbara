@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0f0f0f</color>
+    <color name="colorPrimaryDark">#ccffffff</color>
+    <color name="colorAccent">#4af5f5f5</color>
+    <color name="transBoton">#1bf5fdff</color>
+    <color name="blancoTrans">#a7ffffff</color>
+    <color name="verde">#07b8ffe3</color>
+    <color name="rojo">#9cff6864</color>
+    <color name="aceptar">#6835ff3f</color>
+</resources>

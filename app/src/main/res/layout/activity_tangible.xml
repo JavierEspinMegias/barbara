@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg4"
+    tools:context=".Cosas">
+
+    <LinearLayout
+        android:id="@+id/listaTag"
+        android:layout_width="328dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/campWeb"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:autoText="true"
+            android:background="@color/transBoton"
+            android:ems="10"
+            android:onClick="vaciaTexto"
+            android:paddingLeft="14dp"
+            android:text="@string/campWeb"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/listaWebs"
+        android:layout_width="332dp"
+        android:layout_height="439dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/aliexpress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@color/transBoton"
+            android:fontFamily="sans-serif"
+            android:onClick="abrirWeb"
+            android:text="@string/web1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/amazon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@color/transBoton"
+            android:fontFamily="sans-serif"
+            android:onClick="abrirWeb"
+            android:text="@string/web2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/ebay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@color/transBoton"
+            android:fontFamily="sans-serif"
+            android:onClick="abrirWeb"
+            android:text="@string/web3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@color/transBoton"
+            android:fontFamily="sans-serif"
+            android:onClick="abrirWeb"
+            android:text="@string/web4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/fnac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@color/transBoton"
+            android:fontFamily="sans-serif"
+            android:onClick="abrirWeb"
+            android:text="@string/web5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/media"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@color/transBoton"
+            android:fontFamily="sans-serif"
+            android:onClick="abrirWeb"
+            android:text="@string/web9"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/audio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@color/transBoton"
+            android:fontFamily="sans-serif"
+            android:onClick="abrirWeb"
+            android:text="@string/web6"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/elcorte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@color/transBoton"
+            android:fontFamily="sans-serif"
+            android:onClick="abrirWeb"
+            android:text="@string/web8"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lineaNavega"
+        android:layout_width="328dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="452dp"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/webViewCosas">
+
+        <Button
+            android:id="@+id/botonNueva"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="-4dp"
+            android:layout_weight="1"
+            android:background="@color/transBoton"
+            android:onClick="nueva"
+            android:text="@string/nueva"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/botonVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="-4dp"
+            android:layout_weight="1"
+            android:background="@color/transBoton"
+            android:onClick="volver"
+            android:text="@string/volver"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="307dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/res"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/busquedaTangible"
+        android:layout_width="315dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="460dp"
+        android:background="@color/transBoton"
+        android:ellipsize="marquee"
+        android:onClick="buscar"
+        android:text="@string/busquedaTangible"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/redBusquedas"
+        android:layout_width="333dp"
+        android:layout_height="223dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="228dp"
+        android:background="@color/colorAccent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/salud"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/botonCheck9"
+                android:textColor="@android:color/background_light"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/belleza"
+                android:layout_width="66dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/botonCheck3"
+                android:textColor="@android:color/background_light"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/motor"
+                android:layout_width="66dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/botonCheck8"
+                android:textColor="@android:color/background_light"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/deportes"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/botonCheck2"
+                android:textColor="@android:color/background_light"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/viajar"
+                android:layout_width="66dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/botonCheck7"
+                android:textColor="@android:color/background_light"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/electronica"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/botonCheck6"
+                android:textColor="@android:color/background_light"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/hogar"
+                android:layout_width="66dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/botonCheck4"
+                android:textColor="@android:color/background_light"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/ocio"
+                android:layout_width="66dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/botonCheck5"
+                android:textColor="@android:color/background_light"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/moda"
+                android:layout_width="66dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/botonCheck1"
+                android:textColor="@android:color/background_light"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webViewCosas"
+        android:layout_width="364dp"
+        android:layout_height="443dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
